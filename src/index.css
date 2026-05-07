@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: "Cairo", sans-serif;
+  --color-vibrant-yellow: #FFD93D;
+  --color-vibrant-red: #FF6B6B;
+  --color-vibrant-green: #6BCB77;
+  --color-vibrant-blue: #4D96FF;
+  --color-vibrant-cream: #FFFCF2;
+  --color-vibrant-bg: #F0F4F8;
+}
+
+body {
+  @apply bg-vibrant-bg text-[#1A202C] antialiased overflow-x-hidden;
+}
+
+/* Use standard CSS for custom base classes */
+.neobrutal-border {
+  border: 3px solid black;
+}
+
+.neobrutal-shadow {
+  box-shadow: 6px 6px 0px #000;
+}
+
+.neobrutal-shadow-sm {
+  box-shadow: 4px 4px 0px #000;
+}
+
+.neobrutal-card {
+  border: 3px solid black;
+  box-shadow: 6px 6px 0px #000;
+  border-radius: 20px;
+}
